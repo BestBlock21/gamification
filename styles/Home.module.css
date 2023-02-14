@@ -1,0 +1,87 @@
+.mainContainer { 
+  background-image: linear-gradient(rgba(145, 130, 127, 0.45), rgba(0, 0, 0, 0.5)), url(../public/BG.png);
+  background-size: cover;
+  height: 100vh;
+  /* animation: gradient 10s ease infinite; */
+}
+
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+
+.activist {
+  position: relative;
+  animation: run 5s;
+  top: 35%;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  display: inline-block
+}
+
+@keyframes run {
+  0% {
+    left: 0%;
+    opacity: 0;
+    width: 100px;
+  }
+
+  50% {
+    left: 12%;
+    opacity: 1;
+    width: 100px
+  }
+
+  100% {
+    left: 12%;
+    opacity: 1;
+    width: 100px;
+  }
+
+}
+
+.quetion {
+  position: relative;
+  bottom: 251px;
+  text-align: center;
+  color: #FFFFFF;
+  
+  
+}
+
+.option {
+  position: absolute;
+  bottom: 41%;
+  left: 32%;
+  cursor: pointer;
+  list-style: circle;
+  color: #ffffff;
+}
+
+.submitButContainer {
+  text-align: center;
+  /* width: 30%;
+  margin: 22px 11px; */
+
+}
+
+.submitBut {
+  padding: 10px 26px;
+  border: none;
+  border-radius: 10px;
+}
+
+.warning {
+  text-align: center;
+}

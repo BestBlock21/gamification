@@ -1,5 +1,5 @@
 .mainContainer { 
-  background-image: linear-gradient(rgba(145, 130, 127, 0.45), rgba(0, 0, 0, 0.5)), url(../public/BG.png);
+  background-image:url(../public/BG.png);
   background-size: cover;
   height: 100vh;
   /* animation: gradient 10s ease infinite; */
